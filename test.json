@@ -1,0 +1,220 @@
+{
+    "_id": {
+        "$oid": "660d3d53dde6404fdfbeb42d"
+    },
+    "username": "gaurang",
+    "email": "pategaurang5113@gmail.com",
+    "password": "$2b$08$6LBMmeCmcZ0xg2QR4WjEROHGaDVeYdeb1ff9Md74/W.UkSP.xo/D2",
+    "__v": {
+        "$numberInt": "1"
+    },
+    "createdAt": {
+        "$date": {
+            "$numberLong": "1723665726840"
+        }
+    },
+    "currency": "USD",
+    "fullName": "Full Name",
+    "sessions": [],
+    "subscriptionActive": true,
+    "subscriptionActiveTill": {
+        "$date": {
+            "$numberLong": "1735603200000"
+        }
+    },
+    "totalBudget": {
+        "$numberInt": "0"
+    },
+    "active": false
+}
+{
+    "_id": {
+        "$oid": "6664d7dff4e21ab743c5c433"
+    },
+    "fullName": "Gaurang Patel",
+    "email": "patelgaurang5113@gmail.com",
+    "username": "gaurang-pay",
+    "password": "$2a$10$CJqH46po.lJdxjyMZX0X/uwfLHEI3LYYaqtTtAi4FR6iHq04s0CRm",
+    "currency": "USD",
+    "totalBudget": {
+        "$numberInt": "0"
+    },
+    "sessions": [
+        {
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjY2NGQ3ZGZmNGUyMWFiNzQzYzVjNDMzIn0sImlhdCI6MTcyMzcxMzk2NiwiZXhwIjoxNzIzNzE3NTY2fQ.08HputIwy3Pd-3uof8Pb6GfsrI9NvE82WnE1bhOZNb8",
+            "expiresAt": {
+                "$date": {
+                    "$numberLong": "1723717566781"
+                }
+            },
+            "_id": {
+                "$oid": "66bdc9ae4f4fd0b53fe5e5f2"
+            },
+            "createdAt": {
+                "$date": {
+                    "$numberLong": "1723713966781"
+                }
+            }
+        },
+        {
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjY2NGQ3ZGZmNGUyMWFiNzQzYzVjNDMzIn0sImlhdCI6MTcyMzcxNTk2OCwiZXhwIjoxNzIzNzE5NTY4fQ.2vuoGXx48DeO_Z0CmTCaAHuAqXndxoNDRCW-UNyl6pE",
+            "expiresAt": {
+                "$date": {
+                    "$numberLong": "1723719568267"
+                }
+            },
+            "_id": {
+                "$oid": "66bdd180625f349072df9243"
+            },
+            "createdAt": {
+                "$date": {
+                    "$numberLong": "1723715968268"
+                }
+            }
+        },
+        {
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjY2NGQ3ZGZmNGUyMWFiNzQzYzVjNDMzIn0sImlhdCI6MTcyMzcxNTk2OSwiZXhwIjoxNzIzNzE5NTY5fQ.0yYEb_NLoQjF2x_vWVfNeKIx-2wTtJyWenuLpZZHxxs",
+            "expiresAt": {
+                "$date": {
+                    "$numberLong": "1723719569125"
+                }
+            },
+            "_id": {
+                "$oid": "66bdd181625f349072df924a"
+            },
+            "createdAt": {
+                "$date": {
+                    "$numberLong": "1723715969125"
+                }
+            }
+        },
+        {
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjY2NGQ3ZGZmNGUyMWFiNzQzYzVjNDMzIn0sImlhdCI6MTcyMzcxNTk4OSwiZXhwIjoxNzIzNzE5NTg5fQ.Ffgtje2NM0-lDETVM_I3WyiLDWpNW3gzgvW0MCPwJ0o",
+            "expiresAt": {
+                "$date": {
+                    "$numberLong": "1723719589173"
+                }
+            },
+            "_id": {
+                "$oid": "66bdd195c8db596aa9e3a66e"
+            },
+            "createdAt": {
+                "$date": {
+                    "$numberLong": "1723715989178"
+                }
+            }
+        },
+        {
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjY2NGQ3ZGZmNGUyMWFiNzQzYzVjNDMzIn0sImlhdCI6MTcyMzcxNjA1NCwiZXhwIjoxNzIzNzE5NjU0fQ.vSCw6VL3DREo-_cYhs-uEv1ssyJF6HyZ9jKtV-K-GwM",
+            "expiresAt": {
+                "$date": {
+                    "$numberLong": "1723719654376"
+                }
+            },
+            "_id": {
+                "$oid": "66bdd1d65994d482c8c33912"
+            },
+            "createdAt": {
+                "$date": {
+                    "$numberLong": "1723716054377"
+                }
+            }
+        },
+        {
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjY2NGQ3ZGZmNGUyMWFiNzQzYzVjNDMzIn0sImlhdCI6MTcyMzcxNjE0NiwiZXhwIjoxNzIzNzE5NzQ2fQ.-4kpHcJAtqv9MOHoXtBb_9DrGISanE_KCSAfMFvdkXQ",
+            "expiresAt": {
+                "$date": {
+                    "$numberLong": "1723719746528"
+                }
+            },
+            "_id": {
+                "$oid": "66bdd232a111861d820bcb80"
+            },
+            "createdAt": {
+                "$date": {
+                    "$numberLong": "1723716146529"
+                }
+            }
+        },
+        {
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjY2NGQ3ZGZmNGUyMWFiNzQzYzVjNDMzIn0sImlhdCI6MTcyMzcxNjE0OCwiZXhwIjoxNzIzNzE5NzQ4fQ.UKoD-hVBSk4hgfT2TjNTOsUimQb8OhiV_LdwFOgY2jE",
+            "expiresAt": {
+                "$date": {
+                    "$numberLong": "1723719748032"
+                }
+            },
+            "_id": {
+                "$oid": "66bdd234a111861d820bcb8b"
+            },
+            "createdAt": {
+                "$date": {
+                    "$numberLong": "1723716148033"
+                }
+            }
+        },
+        {
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjY2NGQ3ZGZmNGUyMWFiNzQzYzVjNDMzIn0sImlhdCI6MTcyMzcxNjE0OCwiZXhwIjoxNzIzNzE5NzQ4fQ.UKoD-hVBSk4hgfT2TjNTOsUimQb8OhiV_LdwFOgY2jE",
+            "expiresAt": {
+                "$date": {
+                    "$numberLong": "1723719748819"
+                }
+            },
+            "_id": {
+                "$oid": "66bdd234a111861d820bcb97"
+            },
+            "createdAt": {
+                "$date": {
+                    "$numberLong": "1723716148819"
+                }
+            }
+        },
+        {
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjY2NGQ3ZGZmNGUyMWFiNzQzYzVjNDMzIn0sImlhdCI6MTcyMzcxNjE0OSwiZXhwIjoxNzIzNzE5NzQ5fQ.WHcgx0hm2OePXYhSefkgakF3nFAPO4Gs7w0POrKZ2s8",
+            "expiresAt": {
+                "$date": {
+                    "$numberLong": "1723719749563"
+                }
+            },
+            "_id": {
+                "$oid": "66bdd235a111861d820bcba4"
+            },
+            "createdAt": {
+                "$date": {
+                    "$numberLong": "1723716149563"
+                }
+            }
+        },
+        {
+            "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjY2NGQ3ZGZmNGUyMWFiNzQzYzVjNDMzIn0sImlhdCI6MTcyMzcxNjE2MywiZXhwIjoxNzIzNzE5NzYzfQ._OX8T8vcNu_60x4_GmjCa6m_TDIZ9w4oi3dPQwuDSmk",
+            "expiresAt": {
+                "$date": {
+                    "$numberLong": "1723719763040"
+                }
+            },
+            "_id": {
+                "$oid": "66bdd243bafb7026938388dd"
+            },
+            "createdAt": {
+                "$date": {
+                    "$numberLong": "1723716163040"
+                }
+            }
+        }
+    ],
+    "__v": {
+        "$numberInt": "231"
+    },
+    "expoPushToken": "ExponentPushToken[F_YqISHT4l7IehQASY9bdL]",
+    "createdAt": {
+        "$date": {
+            "$numberLong": "1723666227246"
+        }
+    },
+    "subscriptionActive": true,
+    "subscriptionActiveTill": {
+        "$date": {
+            "$numberLong": "1735603200000"
+        }
+    },
+    "active": true
+}
