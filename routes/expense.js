@@ -7,10 +7,10 @@ const User = require('../models/user');
 const transactions = require('../models/transactions');
 const Category = require('../models/category');
 router.post('/add', auth, async (req, res) => {
-    const { type, date, account, category, amount, note } = req.body;
+    const { type, date, account, category, amount, note, costumId} = req.body;
 
     // Validation for required fields
-    if (!type || !date || !account || !category || !amount) {
+    if (!type || !date || !account || !category || !amount || !costumId) {
         return res.status(400).json({ msg: 'Type, date, account, category, and amount are required' });
     }
 
@@ -61,7 +61,8 @@ router.post('/add', auth, async (req, res) => {
             account,
             category,
             amount,
-            note
+            note, 
+            costumId
         });
 
         await transaction.save();
@@ -257,7 +258,7 @@ router.get('/expense-overview', auth, async (req, res) => {
 //create delete api
 router.delete('/delete/:id', auth, async (req, res) => {
     try {
-        const transaction = await Transaction.findById(req.params.id);
+        const transaction = await Transaction.find({costumId: req.params.id});
         if (!transaction) {
             return res.status(404).json({ msg: 'Transaction not found' });
         }
@@ -298,7 +299,7 @@ router.put('/update/:id', auth, async (req, res) => {
     }
 
     try {
-        const transaction = await Transaction.findById(req.params.id);
+        const transaction = await Transaction.find({costumId: req.params.id});
         if (!transaction) {
             return res.status(404).json({ msg: 'Transaction not found' });
         }
@@ -343,7 +344,7 @@ router.put('/update/:id', auth, async (req, res) => {
 
 router.get('/:id', auth, async (req, res) => {
     try {
-        const transaction = await Transaction.findById(req.params.id);
+        const transaction = await Transaction.find({costumId: req.params.id});
         if (!transaction) {
             return res.status(404).json({ msg: 'Transaction not found' });
         }
